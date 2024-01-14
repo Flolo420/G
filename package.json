@@ -1,0 +1,31 @@
+{
+  "name": "@webinstall/webi-installers",
+  "private": true,
+  "version": "0.2.0",
+  "description": "webinstall script repository",
+  "main": "_webi/",
+  "scripts": {
+    "test": "node _webi/test.js ./node/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webinstall/webi-installers.git"
+  },
+  "keywords": [
+    "webinstall",
+    "brew",
+    "apt",
+    "chocolately"
+  ],
+  "author": "AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com/)",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/webinstall/webi-installers/issues"
+  },
+  "homepage": "https://github.com/webinstall/webi-installers#readme",
+  "dependencies": {
+    "@root/request": "^1.6.1",
+    "dotenv": "^8.2.0",
+    "shmatter": "^1.0.1"
+  }
+}

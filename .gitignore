@@ -1,0 +1,6 @@
+.env
+node_modules
+install-*.sh
+install-*.bat
+install-*.ps1
+.*.sw*
